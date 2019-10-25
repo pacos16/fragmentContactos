@@ -9,7 +9,7 @@
 
     <fragment
         android:id="@+id/fragment"
-        android:name="FragmentListado"
+        android:name="com.pacosignes.contactos.FragmentListado"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

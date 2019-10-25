@@ -5,7 +5,6 @@ import android.content.Context;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.json.JSONTokener;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -56,6 +55,7 @@ public class ContactParser {
 
         }
     }
+
 
     public Contact[] getContacts(){
         return contacts;
